@@ -23,6 +23,12 @@ const App = () => {
     }
     addContact(lmao).then(response=>{
       console.log("BRUH" + response)
+      alert("Success")
+    })
+    .catch((error) =>
+    {
+      alert(error)
+      console.error(error)
     })
   }
 
