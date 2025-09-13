@@ -36,6 +36,7 @@ const App = () => {
     () => {
       getAll().then(response =>
       {
+        console.log(response + "LMAO")
       setPhonebook(response)
     })
     }, []
